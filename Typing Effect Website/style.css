@@ -71,12 +71,20 @@
   padding: 10px 30px;
   text-decoration: none;
 }
+
+.text-box a:hover{
+  color: #d1d0b5;
+}
 .text-box .btn{
   background: #fff724;
   color: black;
   margin-left: 30px;
   font-weight: 600;
 
+}
+
+.text-box.btn:hover{
+  background: #ccd8e2;
 }
 .user-img{
   width: 350px;
