@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kiyunga Mixed Farm</title>
+  <style>
+    /* Add some style to the website */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: green;
+    }
+
+    .farm-products {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 30%;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+
+    .contact-form {
+      width: 50%;
+      margin: 50px auto;
+      text-align: left;
+      padding: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Kiyunga Mixed Farm</h1>
+  <p>Welcome to Kiyunga Mixed Farm, where we grow fresh, high-quality fruits and vegetables. Take a look at our offerings below:</p>
+
+  <!-- Display the products offered by the farm -->
+  <div class="farm-products">
+    <div class="product">
+      <img src="tomatoes.jpg" alt="Tomatoes">
+      <h3>Tomatoes</h3>
+      <p>Juicy and flavorful tomatoes grown with care at our farm.</p>
+    </div>
+    <div class="product">
+      <img src="carrots.jpg" alt="Carrots">
+      <h3>Carrots</h3>
+      <p>Crunchy and sweet carrots, perfect for snacking or adding to recipes.</p>
+    </div>
+    <div class="product">
+      <img src="lettuce.jpg" alt="Lettuce">
+      <h3>Lettuce</h3>
+      <p>Fresh and crisp lettuce, ideal for salads or sandwiches.</p>
+    </div>
+  </div>
+
+  <!-- Contact form for customers to send inquiries -->
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="submit-form.php" method="post">
+    <input type="text" name="name" placeholder="Your Name">
+    <input type="text" name="email" placeholder="Your Email">
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <input type
